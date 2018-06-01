@@ -1,0 +1,25 @@
+Kong Spec Expose Plugin
+Copyright 2018 Optum
+
+Project Description:
+====================
+
+The Kong Spec Expose Plugin is a small, lua-based, OpenResty Nginx module which enables exposure of an API’s spec/contract through the gateway while still allowing such a service call to be protected by auth. The purpose of this Spec Expose plugin is to enable teams to expose their api documentation through the Kong Gateway
+
+
+
+Authors:
+Jeremy Justus, ©Optum 2018
+
+
+Added Files:
+============
+
+
+
+
+
+
+
+Modified Files:
+===============
