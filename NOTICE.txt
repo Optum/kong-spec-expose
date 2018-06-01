@@ -10,6 +10,7 @@ The Kong Spec Expose Plugin is a small, lua-based, OpenResty Nginx module which 
 
 Authors:
 Jeremy Justus, ©Optum 2018
+Ross Sbriscia, ©Optum 2018
 
 
 Added Files:
