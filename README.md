@@ -4,7 +4,7 @@ This plugin will expose the specification of Auth protected API services fronted
 
 In short, API Providers need a means of exposing the specification of their services while maintaining authentication on the service itself, we do so by:
 
-1. Plugin enables Kong users to specify the URL to the endpoint of their API specification.
+1. Plugin enables Kong users to specify the endpoint of their API specification.
 
 2. Plugin will validate the Proxy request is GET method, and will validate the proxy request ends with "/specz". If these two requirements are met, the endpoint will return the specification documentation of the API Service with Content-Type header identical to what the API Service exposes.
 
