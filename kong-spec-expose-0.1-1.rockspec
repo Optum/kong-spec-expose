@@ -6,7 +6,7 @@ source = {
 description = {
    summary = "Plugin to expose the specification/contract of auth protected API services fronted by the Kong gateway",
    detailed = [[
-   This plugin will expose the specification of Auth protected API services fronted by the Kong gateway.
+   This plugin will expose the specification of auth protected API services fronted by the Kong gateway.
 
    In short, API Providers need a means of exposing the specification of their services while maintaining authentication on the service itself, we do so by:
     
