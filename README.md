@@ -22,5 +22,8 @@ $ git clone https://github.com/Optum/kong-spec-expose.git /path/to/kong/plugins/
 $ cd /path/to/kong/plugins/kong-spec-expose
 $ luarocks make *.rockspec
 ```
+## Maintainers
+[jeremyjpj0916](https://github.com/jeremyjpj0916)  
+[rsbrisci](https://github.com/rsbrisci)  
 
 Feel free to open issues, or refer to our [Contribution Guidelines](https://github.com/Optum/kong-spec-expose/blob/master/CONTRIBUTING.md) if you have any questions.
