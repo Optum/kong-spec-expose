@@ -23,4 +23,4 @@ $ cd /path/to/kong/plugins/kong-spec-expose
 $ luarocks make *.rockspec
 ```
 
-Feel free to open issues, or refer to our Contribution Guidelines if you have any questions.
+Feel free to open issues, or refer to our [Contribution Guidelines](https://github.com/Optum/kong-spec-expose/blob/master/CONTRIBUTING.md) if you have any questions.
