@@ -6,7 +6,7 @@ In short, API Providers need a means of exposing the specification of their serv
 
 1. Plugin enables Kong users to specify the endpoint of their API specification.
 
-2. Plugin will validate the Proxy request is GET method, and will validate the proxy request ends with "/specz". If these two requirements are met, the endpoint will return the specification documentation of the API Service with Content-Type header identical to what the API Service exposes.
+2. Plugin will validate the Proxy request is GET method, and will validate the proxy request ends with "/specz". If these two requirements are met, the endpoint will return the specification documentation of the API Service with Content-Type header identical to what the API specification exposes.
 
 ## Supported Kong Releases
 Kong >= 0.12.x 
