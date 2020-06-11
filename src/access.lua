@@ -1,6 +1,7 @@
 local _M = {}
 local pl_stringx = require "pl.stringx"
 local http = require "resty.http"
+local kong = kong
 
 function _M.run(conf)
    if ("GET" == ngx.req.get_method() and pl_stringx.endswith(ngx.var.request_uri, "/specz")) then
