@@ -8,7 +8,7 @@ return {
   { config = {
       type = "record",
       fields = {
-        { spec_url = { type = "string", default = "", }, },
+        { spec_url = { type = "string"}, },
         }, }, },
     },
 }
