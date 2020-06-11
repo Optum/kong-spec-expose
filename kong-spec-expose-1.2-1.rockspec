@@ -1,5 +1,5 @@
 package = "kong-spec-expose"
-version = "1.1-1"
+version = "1.2-1"
 source = {
    url = "git+https://github.com/Optum/kong-spec-expose.git"
 }
