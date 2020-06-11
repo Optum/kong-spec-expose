@@ -1,6 +1,14 @@
+local typedefs = require "kong.db.schema.typedefs"
+
 return {
-  no_consumer = true,
-  fields = {
-     spec_url = {type = "string", default = ""},
-  }
+ name = "kong-spec-expose",
+ fields = {
+  { consumer = typedefs.no_consumer },
+  { protocols = typedefs.protocols_http },
+  { config = {
+      type = "record",
+      fields = {
+        { spec_url = { type = "string", default = "", }, },
+        }, }, },
+    },
 }
